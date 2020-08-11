@@ -1,0 +1,454 @@
+2020-07-22 08:59:52 [http-nio-8080-exec-5] INFO  c.R.security.JwtAuthenticationFilter -
+				 ....into dofiler method......
+2020-07-22 08:59:52 [http-nio-8080-exec-5] INFO  c.R.security.JwtAuthenticationFilter -
+				bearerToken......null
+2020-07-22 08:59:52 [http-nio-8080-exec-5] INFO  c.R.security.JwtAuthenticationFilter -
+				 jwt..... null
+2020-07-22 08:59:52 [http-nio-8080-exec-9] INFO  c.R.security.JwtAuthenticationFilter -
+				 ....into dofiler method......
+2020-07-22 08:59:52 [http-nio-8080-exec-9] INFO  c.R.security.JwtAuthenticationFilter -
+				bearerToken......null
+2020-07-22 08:59:52 [http-nio-8080-exec-9] INFO  c.R.security.JwtAuthenticationFilter -
+				 jwt..... null
+2020-07-22 08:59:52 [http-nio-8080-exec-9] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				<================in BeforeAdvice Calling method================>AuthController.login(..)
+2020-07-22 08:59:52 [http-nio-8080-exec-9] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				====>argument:LoginRequest [username=nani, password=nani]
+2020-07-22 08:59:52 [http-nio-8080-exec-9] INFO  c.R.controller.AuthController -
+				hiiiiiiiiiinani...........nani
+2020-07-22 08:59:52 [http-nio-8080-exec-9] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				<================in BeforeAdvice Calling method================>Authservice.login(..)
+2020-07-22 08:59:52 [http-nio-8080-exec-9] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				====>argument:LoginRequest [username=nani, password=nani]
+2020-07-22 08:59:53 [http-nio-8080-exec-9] INFO  com.ReditClone.services.Authservice -
+				authentication.....org.springframework.security.authentication.UsernamePasswordAuthenticationToken@ffeb66a1: Principal: org.springframework.security.core.userdetails.User@337aae: Username: nani; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: USER; Credentials: [PROTECTED]; Authenticated: true; Details: null; Granted Authorities: USER
+2020-07-22 08:59:53 [http-nio-8080-exec-9] INFO  com.ReditClone.services.Authservice -
+				authentication name...nani
+2020-07-22 08:59:53 [http-nio-8080-exec-9] INFO  com.ReditClone.security.JwtProvider -
+				principal....org.springframework.security.core.userdetails.User@337aae: Username: nani; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: USER
+2020-07-22 08:59:53 [http-nio-8080-exec-8] INFO  c.R.security.JwtAuthenticationFilter -
+				 ....into dofiler method......
+2020-07-22 08:59:53 [http-nio-8080-exec-8] INFO  c.R.security.JwtAuthenticationFilter -
+				bearerToken......null
+2020-07-22 08:59:53 [http-nio-8080-exec-8] INFO  c.R.security.JwtAuthenticationFilter -
+				 jwt..... null
+2020-07-22 08:59:53 [http-nio-8080-exec-8] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				<================in BeforeAdvice Calling method================>AuthController.login(..)
+2020-07-22 08:59:53 [http-nio-8080-exec-8] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				====>argument:LoginRequest [username=nani, password=nani]
+2020-07-22 08:59:53 [http-nio-8080-exec-8] INFO  c.R.controller.AuthController -
+				hiiiiiiiiiinani...........nani
+2020-07-22 08:59:53 [http-nio-8080-exec-8] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				<================in BeforeAdvice Calling method================>Authservice.login(..)
+2020-07-22 08:59:53 [http-nio-8080-exec-8] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				====>argument:LoginRequest [username=nani, password=nani]
+2020-07-22 08:59:53 [http-nio-8080-exec-9] INFO  com.ReditClone.security.JwtProvider -
+				PrivateKey.........sun.security.rsa.RSAPrivateCrtKeyImpl@ffdd4704
+2020-07-22 08:59:53 [http-nio-8080-exec-8] INFO  com.ReditClone.services.Authservice -
+				authentication.....org.springframework.security.authentication.UsernamePasswordAuthenticationToken@ffeb66a1: Principal: org.springframework.security.core.userdetails.User@337aae: Username: nani; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: USER; Credentials: [PROTECTED]; Authenticated: true; Details: null; Granted Authorities: USER
+2020-07-22 08:59:53 [http-nio-8080-exec-8] INFO  com.ReditClone.services.Authservice -
+				authentication name...nani
+2020-07-22 08:59:53 [http-nio-8080-exec-8] INFO  com.ReditClone.security.JwtProvider -
+				principal....org.springframework.security.core.userdetails.User@337aae: Username: nani; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: USER
+2020-07-22 08:59:53 [http-nio-8080-exec-9] INFO  com.ReditClone.services.Authservice -
+				authenticationToken.....eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJuYW5pIiwiZXhwIjoxNTk1Mzg5NDkzfQ.I7quDQ9I-ySGmwLjv95unB-60sZocGsoFiIaK7VVOkGoDaFFM86PantDeyGQ_zOJpZlc7-OjKT02J8qTyoxg6Nootiq9_vRPu3B_w9ClPbHGhfqsrdCr0_WYiVtlw0sSyrCSZxZSms7DykVSbucP5RwgiI6wKlg4_ckNb9v_wr2OgldJJabyqK2jD5at5N1dCDt-HEiDWXGKaWtZQC-p45RBdZj1vWqwb5qbTowW76AIBnQEeNA3X2YE4r8LZGr78LXm2mMYUiHXkteR4MvUoeI1eSTIJJmsqu_VmZl1d-7P8KeKjxiSL0F66V49mTD2_TARR6IABTloTEu2OZlogA
+2020-07-22 08:59:53 [http-nio-8080-exec-9] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				<================in BeforeAdvice Calling method================>RefreshTokenService.generateRefreshToken()
+2020-07-22 08:59:53 [http-nio-8080-exec-9] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				<================in BeforeAdvice Calling method================>CrudRepository.save(..)
+2020-07-22 08:59:53 [http-nio-8080-exec-9] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				====>argument:RefreshToken [id=0, token=e101d4c4-79f4-4a94-98f9-17ade509e3f2, createdDate=2020-07-22T03:29:53.699Z]
+2020-07-22 08:59:53 [http-nio-8080-exec-9] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				<=========in After ReturningAdvice calling method=======>CrudRepository.save(..)
+2020-07-22 08:59:53 [http-nio-8080-exec-9] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				====>argument:<====RefreshToken [id=66, token=e101d4c4-79f4-4a94-98f9-17ade509e3f2, createdDate=2020-07-22T03:29:53.699Z]
+2020-07-22 08:59:53 [http-nio-8080-exec-9] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				<=========in After ReturningAdvice calling method=======>RefreshTokenService.generateRefreshToken()
+2020-07-22 08:59:53 [http-nio-8080-exec-9] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				====>argument:<====RefreshToken [id=66, token=e101d4c4-79f4-4a94-98f9-17ade509e3f2, createdDate=2020-07-22T03:29:53.699Z]
+2020-07-22 08:59:53 [http-nio-8080-exec-9] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				<=========in After ReturningAdvice calling method=======>Authservice.login(..)
+2020-07-22 08:59:53 [http-nio-8080-exec-9] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				====>argument:<====AuthenticationResponse [authenticationToken=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJuYW5pIiwiZXhwIjoxNTk1Mzg5NDkzfQ.I7quDQ9I-ySGmwLjv95unB-60sZocGsoFiIaK7VVOkGoDaFFM86PantDeyGQ_zOJpZlc7-OjKT02J8qTyoxg6Nootiq9_vRPu3B_w9ClPbHGhfqsrdCr0_WYiVtlw0sSyrCSZxZSms7DykVSbucP5RwgiI6wKlg4_ckNb9v_wr2OgldJJabyqK2jD5at5N1dCDt-HEiDWXGKaWtZQC-p45RBdZj1vWqwb5qbTowW76AIBnQEeNA3X2YE4r8LZGr78LXm2mMYUiHXkteR4MvUoeI1eSTIJJmsqu_VmZl1d-7P8KeKjxiSL0F66V49mTD2_TARR6IABTloTEu2OZlogA, username=nani]
+2020-07-22 08:59:53 [http-nio-8080-exec-9] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				<=========in After ReturningAdvice calling method=======>AuthController.login(..)
+2020-07-22 08:59:53 [http-nio-8080-exec-9] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				====>argument:<====AuthenticationResponse [authenticationToken=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJuYW5pIiwiZXhwIjoxNTk1Mzg5NDkzfQ.I7quDQ9I-ySGmwLjv95unB-60sZocGsoFiIaK7VVOkGoDaFFM86PantDeyGQ_zOJpZlc7-OjKT02J8qTyoxg6Nootiq9_vRPu3B_w9ClPbHGhfqsrdCr0_WYiVtlw0sSyrCSZxZSms7DykVSbucP5RwgiI6wKlg4_ckNb9v_wr2OgldJJabyqK2jD5at5N1dCDt-HEiDWXGKaWtZQC-p45RBdZj1vWqwb5qbTowW76AIBnQEeNA3X2YE4r8LZGr78LXm2mMYUiHXkteR4MvUoeI1eSTIJJmsqu_VmZl1d-7P8KeKjxiSL0F66V49mTD2_TARR6IABTloTEu2OZlogA, username=nani]
+2020-07-22 08:59:53 [http-nio-8080-exec-10] INFO  c.R.security.JwtAuthenticationFilter -
+				 ....into dofiler method......
+2020-07-22 08:59:53 [http-nio-8080-exec-10] INFO  c.R.security.JwtAuthenticationFilter -
+				bearerToken......null
+2020-07-22 08:59:53 [http-nio-8080-exec-10] INFO  c.R.security.JwtAuthenticationFilter -
+				 jwt..... null
+2020-07-22 08:59:53 [http-nio-8080-exec-3] INFO  c.R.security.JwtAuthenticationFilter -
+				 ....into dofiler method......
+2020-07-22 08:59:53 [http-nio-8080-exec-3] INFO  c.R.security.JwtAuthenticationFilter -
+				bearerToken......null
+2020-07-22 08:59:53 [http-nio-8080-exec-3] INFO  c.R.security.JwtAuthenticationFilter -
+				 jwt..... null
+2020-07-22 08:59:53 [http-nio-8080-exec-2] INFO  c.R.security.JwtAuthenticationFilter -
+				 ....into dofiler method......
+2020-07-22 08:59:53 [http-nio-8080-exec-2] INFO  c.R.security.JwtAuthenticationFilter -
+				bearerToken......Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJuYW5pIiwiZXhwIjoxNTk1Mzg5NDkzfQ.I7quDQ9I-ySGmwLjv95unB-60sZocGsoFiIaK7VVOkGoDaFFM86PantDeyGQ_zOJpZlc7-OjKT02J8qTyoxg6Nootiq9_vRPu3B_w9ClPbHGhfqsrdCr0_WYiVtlw0sSyrCSZxZSms7DykVSbucP5RwgiI6wKlg4_ckNb9v_wr2OgldJJabyqK2jD5at5N1dCDt-HEiDWXGKaWtZQC-p45RBdZj1vWqwb5qbTowW76AIBnQEeNA3X2YE4r8LZGr78LXm2mMYUiHXkteR4MvUoeI1eSTIJJmsqu_VmZl1d-7P8KeKjxiSL0F66V49mTD2_TARR6IABTloTEu2OZlogA
+2020-07-22 08:59:53 [http-nio-8080-exec-2] INFO  c.R.security.JwtAuthenticationFilter -
+				bearerToken......eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJuYW5pIiwiZXhwIjoxNTk1Mzg5NDkzfQ.I7quDQ9I-ySGmwLjv95unB-60sZocGsoFiIaK7VVOkGoDaFFM86PantDeyGQ_zOJpZlc7-OjKT02J8qTyoxg6Nootiq9_vRPu3B_w9ClPbHGhfqsrdCr0_WYiVtlw0sSyrCSZxZSms7DykVSbucP5RwgiI6wKlg4_ckNb9v_wr2OgldJJabyqK2jD5at5N1dCDt-HEiDWXGKaWtZQC-p45RBdZj1vWqwb5qbTowW76AIBnQEeNA3X2YE4r8LZGr78LXm2mMYUiHXkteR4MvUoeI1eSTIJJmsqu_VmZl1d-7P8KeKjxiSL0F66V49mTD2_TARR6IABTloTEu2OZlogA
+2020-07-22 08:59:53 [http-nio-8080-exec-2] INFO  c.R.security.JwtAuthenticationFilter -
+				 jwt..... eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJuYW5pIiwiZXhwIjoxNTk1Mzg5NDkzfQ.I7quDQ9I-ySGmwLjv95unB-60sZocGsoFiIaK7VVOkGoDaFFM86PantDeyGQ_zOJpZlc7-OjKT02J8qTyoxg6Nootiq9_vRPu3B_w9ClPbHGhfqsrdCr0_WYiVtlw0sSyrCSZxZSms7DykVSbucP5RwgiI6wKlg4_ckNb9v_wr2OgldJJabyqK2jD5at5N1dCDt-HEiDWXGKaWtZQC-p45RBdZj1vWqwb5qbTowW76AIBnQEeNA3X2YE4r8LZGr78LXm2mMYUiHXkteR4MvUoeI1eSTIJJmsqu_VmZl1d-7P8KeKjxiSL0F66V49mTD2_TARR6IABTloTEu2OZlogA
+2020-07-22 08:59:53 [http-nio-8080-exec-2] INFO  com.ReditClone.security.JwtProvider -
+				 .... validate Token method......
+2020-07-22 08:59:53 [http-nio-8080-exec-2] INFO  com.ReditClone.security.JwtProvider -
+				 public key......Sun RSA public key, 2048 bits
+  modulus: 16749213887024145033595808490076817956139435457455627993079055968775541282720657689516202732958695829761806250013152116471972719291078004228346011953187151044827416821511634199628208260717633278055002401977829128122429228057722295260444969012161591907798540082474835689779725186996751099820808990551372087634709645026903850735029097618722989478410169889651035545993785048078114762538477235482448795852082467315977753305572322502028680010669945927928711085386199350401778752483828093204325567431475044133165315090141017884320105430653387677348688275024514135602324275635846317930605834355054199369335870969224823978399
+  public exponent: 65537
+2020-07-22 08:59:53 [http-nio-8080-exec-2] INFO  com.ReditClone.security.JwtProvider -
+				 .... validate Token method......Sun RSA public key, 2048 bits
+  modulus: 16749213887024145033595808490076817956139435457455627993079055968775541282720657689516202732958695829761806250013152116471972719291078004228346011953187151044827416821511634199628208260717633278055002401977829128122429228057722295260444969012161591907798540082474835689779725186996751099820808990551372087634709645026903850735029097618722989478410169889651035545993785048078114762538477235482448795852082467315977753305572322502028680010669945927928711085386199350401778752483828093204325567431475044133165315090141017884320105430653387677348688275024514135602324275635846317930605834355054199369335870969224823978399
+  public exponent: 65537
+2020-07-22 08:59:53 [http-nio-8080-exec-2] INFO  com.ReditClone.security.JwtProvider -
+				 public key......Sun RSA public key, 2048 bits
+  modulus: 16749213887024145033595808490076817956139435457455627993079055968775541282720657689516202732958695829761806250013152116471972719291078004228346011953187151044827416821511634199628208260717633278055002401977829128122429228057722295260444969012161591907798540082474835689779725186996751099820808990551372087634709645026903850735029097618722989478410169889651035545993785048078114762538477235482448795852082467315977753305572322502028680010669945927928711085386199350401778752483828093204325567431475044133165315090141017884320105430653387677348688275024514135602324275635846317930605834355054199369335870969224823978399
+  public exponent: 65537
+2020-07-22 08:59:53 [http-nio-8080-exec-1] INFO  c.R.security.JwtAuthenticationFilter -
+				 ....into dofiler method......
+2020-07-22 08:59:53 [http-nio-8080-exec-8] INFO  com.ReditClone.security.JwtProvider -
+				PrivateKey.........sun.security.rsa.RSAPrivateCrtKeyImpl@ffdd4704
+2020-07-22 08:59:53 [http-nio-8080-exec-1] INFO  c.R.security.JwtAuthenticationFilter -
+				bearerToken......Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJuYW5pIiwiZXhwIjoxNTk1Mzg5NDkzfQ.I7quDQ9I-ySGmwLjv95unB-60sZocGsoFiIaK7VVOkGoDaFFM86PantDeyGQ_zOJpZlc7-OjKT02J8qTyoxg6Nootiq9_vRPu3B_w9ClPbHGhfqsrdCr0_WYiVtlw0sSyrCSZxZSms7DykVSbucP5RwgiI6wKlg4_ckNb9v_wr2OgldJJabyqK2jD5at5N1dCDt-HEiDWXGKaWtZQC-p45RBdZj1vWqwb5qbTowW76AIBnQEeNA3X2YE4r8LZGr78LXm2mMYUiHXkteR4MvUoeI1eSTIJJmsqu_VmZl1d-7P8KeKjxiSL0F66V49mTD2_TARR6IABTloTEu2OZlogA
+2020-07-22 08:59:53 [http-nio-8080-exec-1] INFO  c.R.security.JwtAuthenticationFilter -
+				bearerToken......eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJuYW5pIiwiZXhwIjoxNTk1Mzg5NDkzfQ.I7quDQ9I-ySGmwLjv95unB-60sZocGsoFiIaK7VVOkGoDaFFM86PantDeyGQ_zOJpZlc7-OjKT02J8qTyoxg6Nootiq9_vRPu3B_w9ClPbHGhfqsrdCr0_WYiVtlw0sSyrCSZxZSms7DykVSbucP5RwgiI6wKlg4_ckNb9v_wr2OgldJJabyqK2jD5at5N1dCDt-HEiDWXGKaWtZQC-p45RBdZj1vWqwb5qbTowW76AIBnQEeNA3X2YE4r8LZGr78LXm2mMYUiHXkteR4MvUoeI1eSTIJJmsqu_VmZl1d-7P8KeKjxiSL0F66V49mTD2_TARR6IABTloTEu2OZlogA
+2020-07-22 08:59:53 [http-nio-8080-exec-1] INFO  c.R.security.JwtAuthenticationFilter -
+				 jwt..... eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJuYW5pIiwiZXhwIjoxNTk1Mzg5NDkzfQ.I7quDQ9I-ySGmwLjv95unB-60sZocGsoFiIaK7VVOkGoDaFFM86PantDeyGQ_zOJpZlc7-OjKT02J8qTyoxg6Nootiq9_vRPu3B_w9ClPbHGhfqsrdCr0_WYiVtlw0sSyrCSZxZSms7DykVSbucP5RwgiI6wKlg4_ckNb9v_wr2OgldJJabyqK2jD5at5N1dCDt-HEiDWXGKaWtZQC-p45RBdZj1vWqwb5qbTowW76AIBnQEeNA3X2YE4r8LZGr78LXm2mMYUiHXkteR4MvUoeI1eSTIJJmsqu_VmZl1d-7P8KeKjxiSL0F66V49mTD2_TARR6IABTloTEu2OZlogA
+2020-07-22 08:59:53 [http-nio-8080-exec-1] INFO  com.ReditClone.security.JwtProvider -
+				 .... validate Token method......
+2020-07-22 08:59:53 [http-nio-8080-exec-1] INFO  com.ReditClone.security.JwtProvider -
+				 public key......Sun RSA public key, 2048 bits
+  modulus: 16749213887024145033595808490076817956139435457455627993079055968775541282720657689516202732958695829761806250013152116471972719291078004228346011953187151044827416821511634199628208260717633278055002401977829128122429228057722295260444969012161591907798540082474835689779725186996751099820808990551372087634709645026903850735029097618722989478410169889651035545993785048078114762538477235482448795852082467315977753305572322502028680010669945927928711085386199350401778752483828093204325567431475044133165315090141017884320105430653387677348688275024514135602324275635846317930605834355054199369335870969224823978399
+  public exponent: 65537
+2020-07-22 08:59:53 [http-nio-8080-exec-1] INFO  com.ReditClone.security.JwtProvider -
+				 .... validate Token method......Sun RSA public key, 2048 bits
+  modulus: 16749213887024145033595808490076817956139435457455627993079055968775541282720657689516202732958695829761806250013152116471972719291078004228346011953187151044827416821511634199628208260717633278055002401977829128122429228057722295260444969012161591907798540082474835689779725186996751099820808990551372087634709645026903850735029097618722989478410169889651035545993785048078114762538477235482448795852082467315977753305572322502028680010669945927928711085386199350401778752483828093204325567431475044133165315090141017884320105430653387677348688275024514135602324275635846317930605834355054199369335870969224823978399
+  public exponent: 65537
+2020-07-22 08:59:53 [http-nio-8080-exec-1] INFO  com.ReditClone.security.JwtProvider -
+				 public key......Sun RSA public key, 2048 bits
+  modulus: 16749213887024145033595808490076817956139435457455627993079055968775541282720657689516202732958695829761806250013152116471972719291078004228346011953187151044827416821511634199628208260717633278055002401977829128122429228057722295260444969012161591907798540082474835689779725186996751099820808990551372087634709645026903850735029097618722989478410169889651035545993785048078114762538477235482448795852082467315977753305572322502028680010669945927928711085386199350401778752483828093204325567431475044133165315090141017884320105430653387677348688275024514135602324275635846317930605834355054199369335870969224823978399
+  public exponent: 65537
+2020-07-22 08:59:53 [http-nio-8080-exec-2] INFO  com.ReditClone.security.JwtProvider -
+				validate Token Return Value ....header={alg=RS256},body={sub=nani, exp=1595389493},signature=I7quDQ9I-ySGmwLjv95unB-60sZocGsoFiIaK7VVOkGoDaFFM86PantDeyGQ_zOJpZlc7-OjKT02J8qTyoxg6Nootiq9_vRPu3B_w9ClPbHGhfqsrdCr0_WYiVtlw0sSyrCSZxZSms7DykVSbucP5RwgiI6wKlg4_ckNb9v_wr2OgldJJabyqK2jD5at5N1dCDt-HEiDWXGKaWtZQC-p45RBdZj1vWqwb5qbTowW76AIBnQEeNA3X2YE4r8LZGr78LXm2mMYUiHXkteR4MvUoeI1eSTIJJmsqu_VmZl1d-7P8KeKjxiSL0F66V49mTD2_TARR6IABTloTEu2OZlogA
+2020-07-22 08:59:53 [http-nio-8080-exec-2] INFO  com.ReditClone.security.JwtProvider -
+				 public key......Sun RSA public key, 2048 bits
+  modulus: 16749213887024145033595808490076817956139435457455627993079055968775541282720657689516202732958695829761806250013152116471972719291078004228346011953187151044827416821511634199628208260717633278055002401977829128122429228057722295260444969012161591907798540082474835689779725186996751099820808990551372087634709645026903850735029097618722989478410169889651035545993785048078114762538477235482448795852082467315977753305572322502028680010669945927928711085386199350401778752483828093204325567431475044133165315090141017884320105430653387677348688275024514135602324275635846317930605834355054199369335870969224823978399
+  public exponent: 65537
+2020-07-22 08:59:53 [http-nio-8080-exec-1] INFO  com.ReditClone.security.JwtProvider -
+				validate Token Return Value ....header={alg=RS256},body={sub=nani, exp=1595389493},signature=I7quDQ9I-ySGmwLjv95unB-60sZocGsoFiIaK7VVOkGoDaFFM86PantDeyGQ_zOJpZlc7-OjKT02J8qTyoxg6Nootiq9_vRPu3B_w9ClPbHGhfqsrdCr0_WYiVtlw0sSyrCSZxZSms7DykVSbucP5RwgiI6wKlg4_ckNb9v_wr2OgldJJabyqK2jD5at5N1dCDt-HEiDWXGKaWtZQC-p45RBdZj1vWqwb5qbTowW76AIBnQEeNA3X2YE4r8LZGr78LXm2mMYUiHXkteR4MvUoeI1eSTIJJmsqu_VmZl1d-7P8KeKjxiSL0F66V49mTD2_TARR6IABTloTEu2OZlogA
+2020-07-22 08:59:53 [http-nio-8080-exec-2] INFO  c.R.security.JwtAuthenticationFilter -
+				 ....validated token  method......
+2020-07-22 08:59:53 [http-nio-8080-exec-2] INFO  com.ReditClone.security.JwtProvider -
+				 public key......Sun RSA public key, 2048 bits
+  modulus: 16749213887024145033595808490076817956139435457455627993079055968775541282720657689516202732958695829761806250013152116471972719291078004228346011953187151044827416821511634199628208260717633278055002401977829128122429228057722295260444969012161591907798540082474835689779725186996751099820808990551372087634709645026903850735029097618722989478410169889651035545993785048078114762538477235482448795852082467315977753305572322502028680010669945927928711085386199350401778752483828093204325567431475044133165315090141017884320105430653387677348688275024514135602324275635846317930605834355054199369335870969224823978399
+  public exponent: 65537
+2020-07-22 08:59:53 [http-nio-8080-exec-1] INFO  com.ReditClone.security.JwtProvider -
+				 public key......Sun RSA public key, 2048 bits
+  modulus: 16749213887024145033595808490076817956139435457455627993079055968775541282720657689516202732958695829761806250013152116471972719291078004228346011953187151044827416821511634199628208260717633278055002401977829128122429228057722295260444969012161591907798540082474835689779725186996751099820808990551372087634709645026903850735029097618722989478410169889651035545993785048078114762538477235482448795852082467315977753305572322502028680010669945927928711085386199350401778752483828093204325567431475044133165315090141017884320105430653387677348688275024514135602324275635846317930605834355054199369335870969224823978399
+  public exponent: 65537
+2020-07-22 08:59:53 [http-nio-8080-exec-1] INFO  c.R.security.JwtAuthenticationFilter -
+				 ....validated token  method......
+2020-07-22 08:59:53 [http-nio-8080-exec-1] INFO  com.ReditClone.security.JwtProvider -
+				 public key......Sun RSA public key, 2048 bits
+  modulus: 16749213887024145033595808490076817956139435457455627993079055968775541282720657689516202732958695829761806250013152116471972719291078004228346011953187151044827416821511634199628208260717633278055002401977829128122429228057722295260444969012161591907798540082474835689779725186996751099820808990551372087634709645026903850735029097618722989478410169889651035545993785048078114762538477235482448795852082467315977753305572322502028680010669945927928711085386199350401778752483828093204325567431475044133165315090141017884320105430653387677348688275024514135602324275635846317930605834355054199369335870969224823978399
+  public exponent: 65537
+2020-07-22 08:59:53 [http-nio-8080-exec-2] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				<================in BeforeAdvice Calling method================>PostController.getAllPosts()
+2020-07-22 08:59:53 [http-nio-8080-exec-1] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				<================in BeforeAdvice Calling method================>SubredditController.getAllSubreddits()
+2020-07-22 08:59:53 [http-nio-8080-exec-2] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				<=========in After ReturningAdvice calling method=======>PostController.getAllPosts()
+2020-07-22 08:59:53 [http-nio-8080-exec-2] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				====>argument:<====<200 OK OK,[PostResponse [postId=1, postName=First Post, url=www.google.com, description=this is my first post, userName=rukesh, subredditName=First Subreddit, voteCount=-1, commentCount=7, duration=5 months ago, upVote=false, downVote=false], PostResponse [postId=2, postName=Second post, url=www.fb.com, description=this is my second post, userName=rukesh, subredditName=First Subreddit, voteCount=2, commentCount=1, duration=2 months ago, upVote=false, downVote=false], PostResponse [postId=3, postName=Third Post, url=www.goib.com, description=this is my third  post, userName=rukesh, subredditName=First Subreddit, voteCount=1, commentCount=0, duration=5 days ago, upVote=false, downVote=false], PostResponse [postId=4, postName=post from postman, url=www.postman.com, description=this is postman client post, userName=rukesh, subredditName=nani subreddit, voteCount=2, commentCount=0, duration=4 days ago, upVote=false, downVote=false], PostResponse [postId=5, postName=nani post from postman, url=www.fb.com, description=this is nani post, userName=rukesh, subredditName=nani subreddit, voteCount=1, commentCount=0, duration=4 days ago, upVote=false, downVote=false], PostResponse [postId=6, postName=roopa post from postman, url=www.fb.com, description=this is roopa post, userName=rukesh, subredditName=nani subreddit, voteCount=1, commentCount=0, duration=4 days ago, upVote=false, downVote=false], PostResponse [postId=7, postName=icc, url=www.icc.com, description=<p><strong>india vs australia series 2020&nbsp;</strong></p>
+<h4><strong>is conducted in <span style="background-color: #2dc26b;">november&nbsp; &nbsp;</span></strong></h4>
+<p>pleasse register on or before ...oct 12</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;yours faithfully,</p>
+<p>&nbsp; &nbsp; &nbsp; <strong>ICC</strong></p>, userName=rukesh, subredditName=Rukesh subreddit, voteCount=2, commentCount=0, duration=3 days ago, upVote=false, downVote=false], PostResponse [postId=8, postName=uv Creations , url=www.uv creations , description=, userName=rukesh, subredditName=Prabas Subreddit, voteCount=2, commentCount=0, duration=2 days ago, upVote=false, downVote=false], PostResponse [postId=9, postName=Tarak@9999, url=www.tarak9999.com, description=, userName=rukesh, subredditName=Tarak Subreddit, voteCount=1, commentCount=0, duration=2 days ago, upVote=false, downVote=false], PostResponse [postId=10, postName=corona virus, url=www.who.org, description=<p>follow the guildlines providded by the W.H.O to avoid from corona virus...</p>, userName=rukesh, subredditName=Third Subreddit, voteCount=1, commentCount=0, duration=yesterday, upVote=false, downVote=false], PostResponse [postId=11, postName=WHO, url=www.who.org, description=<p>please takes care of yours ....</p>, userName=rukesh, subredditName=Prabas Subreddit, voteCount=-2, commentCount=0, duration=yesterday, upVote=false, downVote=false], PostResponse [postId=12, postName=UNO, url=www.uno.org, description=<p>please maintain peace all over the world....</p>, userName=rukesh, subredditName=UNO Subreddit, voteCount=1, commentCount=0, duration=yesterday, upVote=false, downVote=false], PostResponse [postId=13, postName=viral fevers, url=www.who.org, description=<p>please take care of every one...</p>, userName=rukesh, subredditName=W.H.O Subreddit, voteCount=1, commentCount=0, duration=yesterday, upVote=false, downVote=false], PostResponse [postId=20, postName=second post, url=www.sec.com, description=<p>this is second post</p>, userName=nani, subredditName=Second Subreddit, voteCount=0, commentCount=0, duration=5 hours ago, upVote=false, downVote=false]],[]>
+2020-07-22 08:59:53 [http-nio-8080-exec-1] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				<=========in After ReturningAdvice calling method=======>SubredditController.getAllSubreddits()
+2020-07-22 08:59:53 [http-nio-8080-exec-1] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				====>argument:<====<200 OK OK,[SubredditDto [subredditId=1, name=First Subreddit, description=this is my first subreddit, createdDate=7 days ago, user=rukesh], SubredditDto [subredditId=2, name=Second Subreddit, description=this is my second subreddit, createdDate=8 days ago, user=rukesh], SubredditDto [subredditId=3, name=Third Subreddit, description=this is my third subreddit, createdDate=9 days ago, user=rukesh], SubredditDto [subredditId=4, name=Fourth subreddit, description=this is my fourth subreddit, createdDate=5 days ago, user=rukesh], SubredditDto [subredditId=5, name=Rukesh subreddit, description=this is rukesh subreddit, createdDate=4 days ago, user=rukesh], SubredditDto [subredditId=7, name=nani subreddit, description=this is nani subreddit, createdDate=4 days ago, user=rukesh], SubredditDto [subredditId=8, name=Bhanu subreddit, description=Bhanu is nani subreddit, createdDate=4 days ago, user=rukesh], SubredditDto [subredditId=11, name=Prabas Subreddit, description=this is prabas subreddit created for Radha Syam Movie..., createdDate=2 days ago, user=rukesh], SubredditDto [subredditId=14, name=uv Creations subreddit, description=this is uv creations  subreddit..., createdDate=2 days ago, user=rukesh], SubredditDto [subredditId=15, name=RRR movie Subreddit, description=this is RRR movie subreddit, createdDate=2 days ago, user=rukesh], SubredditDto [subredditId=17, name=RADHE SYAM Subreddit, description=this is radhe syam subreddit..., createdDate=2 days ago, user=rukesh], SubredditDto [subredditId=19, name=Aswadhama Subreddit, description=This is NagaSowrya Aswadhama Subreddit, createdDate=2 days ago, user=rukesh], SubredditDto [subredditId=20, name=Tarak Subreddit, description=this is tarak subreddit, createdDate=2 days ago, user=rukesh], SubredditDto [subredditId=22, name=UNO Subreddit, description=this is uno subreddit, createdDate=yesterday, user=rukesh], SubredditDto [subredditId=23, name=W.H.O Subreddit, description=this is W.H.O subreddit, createdDate=yesterday, user=rukesh]],[]>
+2020-07-22 08:59:54 [http-nio-8080-exec-8] INFO  com.ReditClone.services.Authservice -
+				authenticationToken.....eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJuYW5pIiwiZXhwIjoxNTk1Mzg5NDk0fQ.UKZvgjpmZ2xnPUwHpaqupn7pI3m2_wGgdEwJ_5VH3TDii2ATICIzbKCkhUt0QOmNpqome0xhKf7Qrlbwi0a5Ww4LBm3PqtzCw6E29murmIxT7qt3SB4pqv7Lo6iciPGwypINqt2AtQjQdbnofWTjPN7UiSHQSVKyhivc9Cw1M7CjnJ0yXh778dQ6klpfdByOJJZVAp_VnuuBLZGKqDH4GXEBQJAsqkcf_wWRio0zDGUZMO7tSbOAupgfioBFWG9jdztp09lCTpAT3oW7I50Ac7hHD7rgSBlJD1kBwbr96Xf2bixUQVd6CQuBrR2k1DwGwPQT3Rn4KlaSkCwgtt88ig
+2020-07-22 08:59:54 [http-nio-8080-exec-8] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				<=========in After ReturningAdvice calling method=======>Authservice.login(..)
+2020-07-22 08:59:54 [http-nio-8080-exec-8] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				====>argument:<====AuthenticationResponse [authenticationToken=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJuYW5pIiwiZXhwIjoxNTk1Mzg5NDk0fQ.UKZvgjpmZ2xnPUwHpaqupn7pI3m2_wGgdEwJ_5VH3TDii2ATICIzbKCkhUt0QOmNpqome0xhKf7Qrlbwi0a5Ww4LBm3PqtzCw6E29murmIxT7qt3SB4pqv7Lo6iciPGwypINqt2AtQjQdbnofWTjPN7UiSHQSVKyhivc9Cw1M7CjnJ0yXh778dQ6klpfdByOJJZVAp_VnuuBLZGKqDH4GXEBQJAsqkcf_wWRio0zDGUZMO7tSbOAupgfioBFWG9jdztp09lCTpAT3oW7I50Ac7hHD7rgSBlJD1kBwbr96Xf2bixUQVd6CQuBrR2k1DwGwPQT3Rn4KlaSkCwgtt88ig, username=nani]
+2020-07-22 08:59:54 [http-nio-8080-exec-8] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				<=========in After ReturningAdvice calling method=======>AuthController.login(..)
+2020-07-22 08:59:54 [http-nio-8080-exec-8] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				====>argument:<====AuthenticationResponse [authenticationToken=eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJuYW5pIiwiZXhwIjoxNTk1Mzg5NDk0fQ.UKZvgjpmZ2xnPUwHpaqupn7pI3m2_wGgdEwJ_5VH3TDii2ATICIzbKCkhUt0QOmNpqome0xhKf7Qrlbwi0a5Ww4LBm3PqtzCw6E29murmIxT7qt3SB4pqv7Lo6iciPGwypINqt2AtQjQdbnofWTjPN7UiSHQSVKyhivc9Cw1M7CjnJ0yXh778dQ6klpfdByOJJZVAp_VnuuBLZGKqDH4GXEBQJAsqkcf_wWRio0zDGUZMO7tSbOAupgfioBFWG9jdztp09lCTpAT3oW7I50Ac7hHD7rgSBlJD1kBwbr96Xf2bixUQVd6CQuBrR2k1DwGwPQT3Rn4KlaSkCwgtt88ig, username=nani]
+2020-07-22 08:59:55 [http-nio-8080-exec-4] INFO  c.R.security.JwtAuthenticationFilter -
+				 ....into dofiler method......
+2020-07-22 08:59:55 [http-nio-8080-exec-4] INFO  c.R.security.JwtAuthenticationFilter -
+				bearerToken......Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJuYW5pIiwiZXhwIjoxNTk1Mzg5NDkzfQ.I7quDQ9I-ySGmwLjv95unB-60sZocGsoFiIaK7VVOkGoDaFFM86PantDeyGQ_zOJpZlc7-OjKT02J8qTyoxg6Nootiq9_vRPu3B_w9ClPbHGhfqsrdCr0_WYiVtlw0sSyrCSZxZSms7DykVSbucP5RwgiI6wKlg4_ckNb9v_wr2OgldJJabyqK2jD5at5N1dCDt-HEiDWXGKaWtZQC-p45RBdZj1vWqwb5qbTowW76AIBnQEeNA3X2YE4r8LZGr78LXm2mMYUiHXkteR4MvUoeI1eSTIJJmsqu_VmZl1d-7P8KeKjxiSL0F66V49mTD2_TARR6IABTloTEu2OZlogA
+2020-07-22 08:59:55 [http-nio-8080-exec-4] INFO  c.R.security.JwtAuthenticationFilter -
+				bearerToken......eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJuYW5pIiwiZXhwIjoxNTk1Mzg5NDkzfQ.I7quDQ9I-ySGmwLjv95unB-60sZocGsoFiIaK7VVOkGoDaFFM86PantDeyGQ_zOJpZlc7-OjKT02J8qTyoxg6Nootiq9_vRPu3B_w9ClPbHGhfqsrdCr0_WYiVtlw0sSyrCSZxZSms7DykVSbucP5RwgiI6wKlg4_ckNb9v_wr2OgldJJabyqK2jD5at5N1dCDt-HEiDWXGKaWtZQC-p45RBdZj1vWqwb5qbTowW76AIBnQEeNA3X2YE4r8LZGr78LXm2mMYUiHXkteR4MvUoeI1eSTIJJmsqu_VmZl1d-7P8KeKjxiSL0F66V49mTD2_TARR6IABTloTEu2OZlogA
+2020-07-22 08:59:55 [http-nio-8080-exec-4] INFO  c.R.security.JwtAuthenticationFilter -
+				 jwt..... eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJuYW5pIiwiZXhwIjoxNTk1Mzg5NDkzfQ.I7quDQ9I-ySGmwLjv95unB-60sZocGsoFiIaK7VVOkGoDaFFM86PantDeyGQ_zOJpZlc7-OjKT02J8qTyoxg6Nootiq9_vRPu3B_w9ClPbHGhfqsrdCr0_WYiVtlw0sSyrCSZxZSms7DykVSbucP5RwgiI6wKlg4_ckNb9v_wr2OgldJJabyqK2jD5at5N1dCDt-HEiDWXGKaWtZQC-p45RBdZj1vWqwb5qbTowW76AIBnQEeNA3X2YE4r8LZGr78LXm2mMYUiHXkteR4MvUoeI1eSTIJJmsqu_VmZl1d-7P8KeKjxiSL0F66V49mTD2_TARR6IABTloTEu2OZlogA
+2020-07-22 08:59:55 [http-nio-8080-exec-4] INFO  com.ReditClone.security.JwtProvider -
+				 .... validate Token method......
+2020-07-22 08:59:55 [http-nio-8080-exec-4] INFO  com.ReditClone.security.JwtProvider -
+				 public key......Sun RSA public key, 2048 bits
+  modulus: 16749213887024145033595808490076817956139435457455627993079055968775541282720657689516202732958695829761806250013152116471972719291078004228346011953187151044827416821511634199628208260717633278055002401977829128122429228057722295260444969012161591907798540082474835689779725186996751099820808990551372087634709645026903850735029097618722989478410169889651035545993785048078114762538477235482448795852082467315977753305572322502028680010669945927928711085386199350401778752483828093204325567431475044133165315090141017884320105430653387677348688275024514135602324275635846317930605834355054199369335870969224823978399
+  public exponent: 65537
+2020-07-22 08:59:55 [http-nio-8080-exec-4] INFO  com.ReditClone.security.JwtProvider -
+				 .... validate Token method......Sun RSA public key, 2048 bits
+  modulus: 16749213887024145033595808490076817956139435457455627993079055968775541282720657689516202732958695829761806250013152116471972719291078004228346011953187151044827416821511634199628208260717633278055002401977829128122429228057722295260444969012161591907798540082474835689779725186996751099820808990551372087634709645026903850735029097618722989478410169889651035545993785048078114762538477235482448795852082467315977753305572322502028680010669945927928711085386199350401778752483828093204325567431475044133165315090141017884320105430653387677348688275024514135602324275635846317930605834355054199369335870969224823978399
+  public exponent: 65537
+2020-07-22 08:59:55 [http-nio-8080-exec-4] INFO  com.ReditClone.security.JwtProvider -
+				 public key......Sun RSA public key, 2048 bits
+  modulus: 16749213887024145033595808490076817956139435457455627993079055968775541282720657689516202732958695829761806250013152116471972719291078004228346011953187151044827416821511634199628208260717633278055002401977829128122429228057722295260444969012161591907798540082474835689779725186996751099820808990551372087634709645026903850735029097618722989478410169889651035545993785048078114762538477235482448795852082467315977753305572322502028680010669945927928711085386199350401778752483828093204325567431475044133165315090141017884320105430653387677348688275024514135602324275635846317930605834355054199369335870969224823978399
+  public exponent: 65537
+2020-07-22 08:59:55 [http-nio-8080-exec-4] INFO  com.ReditClone.security.JwtProvider -
+				validate Token Return Value ....header={alg=RS256},body={sub=nani, exp=1595389493},signature=I7quDQ9I-ySGmwLjv95unB-60sZocGsoFiIaK7VVOkGoDaFFM86PantDeyGQ_zOJpZlc7-OjKT02J8qTyoxg6Nootiq9_vRPu3B_w9ClPbHGhfqsrdCr0_WYiVtlw0sSyrCSZxZSms7DykVSbucP5RwgiI6wKlg4_ckNb9v_wr2OgldJJabyqK2jD5at5N1dCDt-HEiDWXGKaWtZQC-p45RBdZj1vWqwb5qbTowW76AIBnQEeNA3X2YE4r8LZGr78LXm2mMYUiHXkteR4MvUoeI1eSTIJJmsqu_VmZl1d-7P8KeKjxiSL0F66V49mTD2_TARR6IABTloTEu2OZlogA
+2020-07-22 08:59:55 [http-nio-8080-exec-4] INFO  com.ReditClone.security.JwtProvider -
+				 public key......Sun RSA public key, 2048 bits
+  modulus: 16749213887024145033595808490076817956139435457455627993079055968775541282720657689516202732958695829761806250013152116471972719291078004228346011953187151044827416821511634199628208260717633278055002401977829128122429228057722295260444969012161591907798540082474835689779725186996751099820808990551372087634709645026903850735029097618722989478410169889651035545993785048078114762538477235482448795852082467315977753305572322502028680010669945927928711085386199350401778752483828093204325567431475044133165315090141017884320105430653387677348688275024514135602324275635846317930605834355054199369335870969224823978399
+  public exponent: 65537
+2020-07-22 08:59:55 [http-nio-8080-exec-4] INFO  c.R.security.JwtAuthenticationFilter -
+				 ....validated token  method......
+2020-07-22 08:59:55 [http-nio-8080-exec-4] INFO  com.ReditClone.security.JwtProvider -
+				 public key......Sun RSA public key, 2048 bits
+  modulus: 16749213887024145033595808490076817956139435457455627993079055968775541282720657689516202732958695829761806250013152116471972719291078004228346011953187151044827416821511634199628208260717633278055002401977829128122429228057722295260444969012161591907798540082474835689779725186996751099820808990551372087634709645026903850735029097618722989478410169889651035545993785048078114762538477235482448795852082467315977753305572322502028680010669945927928711085386199350401778752483828093204325567431475044133165315090141017884320105430653387677348688275024514135602324275635846317930605834355054199369335870969224823978399
+  public exponent: 65537
+2020-07-22 08:59:55 [http-nio-8080-exec-4] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				<================in BeforeAdvice Calling method================>PostController.getAllPosts()
+2020-07-22 08:59:55 [http-nio-8080-exec-4] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				<=========in After ReturningAdvice calling method=======>PostController.getAllPosts()
+2020-07-22 08:59:55 [http-nio-8080-exec-4] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				====>argument:<====<200 OK OK,[PostResponse [postId=1, postName=First Post, url=www.google.com, description=this is my first post, userName=rukesh, subredditName=First Subreddit, voteCount=-1, commentCount=7, duration=5 months ago, upVote=false, downVote=false], PostResponse [postId=2, postName=Second post, url=www.fb.com, description=this is my second post, userName=rukesh, subredditName=First Subreddit, voteCount=2, commentCount=1, duration=2 months ago, upVote=false, downVote=false], PostResponse [postId=3, postName=Third Post, url=www.goib.com, description=this is my third  post, userName=rukesh, subredditName=First Subreddit, voteCount=1, commentCount=0, duration=5 days ago, upVote=false, downVote=false], PostResponse [postId=4, postName=post from postman, url=www.postman.com, description=this is postman client post, userName=rukesh, subredditName=nani subreddit, voteCount=2, commentCount=0, duration=4 days ago, upVote=false, downVote=false], PostResponse [postId=5, postName=nani post from postman, url=www.fb.com, description=this is nani post, userName=rukesh, subredditName=nani subreddit, voteCount=1, commentCount=0, duration=4 days ago, upVote=false, downVote=false], PostResponse [postId=6, postName=roopa post from postman, url=www.fb.com, description=this is roopa post, userName=rukesh, subredditName=nani subreddit, voteCount=1, commentCount=0, duration=4 days ago, upVote=false, downVote=false], PostResponse [postId=7, postName=icc, url=www.icc.com, description=<p><strong>india vs australia series 2020&nbsp;</strong></p>
+<h4><strong>is conducted in <span style="background-color: #2dc26b;">november&nbsp; &nbsp;</span></strong></h4>
+<p>pleasse register on or before ...oct 12</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;yours faithfully,</p>
+<p>&nbsp; &nbsp; &nbsp; <strong>ICC</strong></p>, userName=rukesh, subredditName=Rukesh subreddit, voteCount=2, commentCount=0, duration=3 days ago, upVote=false, downVote=false], PostResponse [postId=8, postName=uv Creations , url=www.uv creations , description=, userName=rukesh, subredditName=Prabas Subreddit, voteCount=2, commentCount=0, duration=2 days ago, upVote=false, downVote=false], PostResponse [postId=9, postName=Tarak@9999, url=www.tarak9999.com, description=, userName=rukesh, subredditName=Tarak Subreddit, voteCount=1, commentCount=0, duration=2 days ago, upVote=false, downVote=false], PostResponse [postId=10, postName=corona virus, url=www.who.org, description=<p>follow the guildlines providded by the W.H.O to avoid from corona virus...</p>, userName=rukesh, subredditName=Third Subreddit, voteCount=1, commentCount=0, duration=yesterday, upVote=false, downVote=false], PostResponse [postId=11, postName=WHO, url=www.who.org, description=<p>please takes care of yours ....</p>, userName=rukesh, subredditName=Prabas Subreddit, voteCount=-2, commentCount=0, duration=yesterday, upVote=false, downVote=false], PostResponse [postId=12, postName=UNO, url=www.uno.org, description=<p>please maintain peace all over the world....</p>, userName=rukesh, subredditName=UNO Subreddit, voteCount=1, commentCount=0, duration=yesterday, upVote=false, downVote=false], PostResponse [postId=13, postName=viral fevers, url=www.who.org, description=<p>please take care of every one...</p>, userName=rukesh, subredditName=W.H.O Subreddit, voteCount=1, commentCount=0, duration=yesterday, upVote=false, downVote=false], PostResponse [postId=20, postName=second post, url=www.sec.com, description=<p>this is second post</p>, userName=nani, subredditName=Second Subreddit, voteCount=0, commentCount=0, duration=5 hours ago, upVote=false, downVote=false]],[]>
+2020-07-22 08:59:55 [http-nio-8080-exec-6] INFO  c.R.security.JwtAuthenticationFilter -
+				 ....into dofiler method......
+2020-07-22 08:59:55 [http-nio-8080-exec-6] INFO  c.R.security.JwtAuthenticationFilter -
+				bearerToken......Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJuYW5pIiwiZXhwIjoxNTk1Mzg5NDkzfQ.I7quDQ9I-ySGmwLjv95unB-60sZocGsoFiIaK7VVOkGoDaFFM86PantDeyGQ_zOJpZlc7-OjKT02J8qTyoxg6Nootiq9_vRPu3B_w9ClPbHGhfqsrdCr0_WYiVtlw0sSyrCSZxZSms7DykVSbucP5RwgiI6wKlg4_ckNb9v_wr2OgldJJabyqK2jD5at5N1dCDt-HEiDWXGKaWtZQC-p45RBdZj1vWqwb5qbTowW76AIBnQEeNA3X2YE4r8LZGr78LXm2mMYUiHXkteR4MvUoeI1eSTIJJmsqu_VmZl1d-7P8KeKjxiSL0F66V49mTD2_TARR6IABTloTEu2OZlogA
+2020-07-22 08:59:55 [http-nio-8080-exec-6] INFO  c.R.security.JwtAuthenticationFilter -
+				bearerToken......eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJuYW5pIiwiZXhwIjoxNTk1Mzg5NDkzfQ.I7quDQ9I-ySGmwLjv95unB-60sZocGsoFiIaK7VVOkGoDaFFM86PantDeyGQ_zOJpZlc7-OjKT02J8qTyoxg6Nootiq9_vRPu3B_w9ClPbHGhfqsrdCr0_WYiVtlw0sSyrCSZxZSms7DykVSbucP5RwgiI6wKlg4_ckNb9v_wr2OgldJJabyqK2jD5at5N1dCDt-HEiDWXGKaWtZQC-p45RBdZj1vWqwb5qbTowW76AIBnQEeNA3X2YE4r8LZGr78LXm2mMYUiHXkteR4MvUoeI1eSTIJJmsqu_VmZl1d-7P8KeKjxiSL0F66V49mTD2_TARR6IABTloTEu2OZlogA
+2020-07-22 08:59:55 [http-nio-8080-exec-6] INFO  c.R.security.JwtAuthenticationFilter -
+				 jwt..... eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJuYW5pIiwiZXhwIjoxNTk1Mzg5NDkzfQ.I7quDQ9I-ySGmwLjv95unB-60sZocGsoFiIaK7VVOkGoDaFFM86PantDeyGQ_zOJpZlc7-OjKT02J8qTyoxg6Nootiq9_vRPu3B_w9ClPbHGhfqsrdCr0_WYiVtlw0sSyrCSZxZSms7DykVSbucP5RwgiI6wKlg4_ckNb9v_wr2OgldJJabyqK2jD5at5N1dCDt-HEiDWXGKaWtZQC-p45RBdZj1vWqwb5qbTowW76AIBnQEeNA3X2YE4r8LZGr78LXm2mMYUiHXkteR4MvUoeI1eSTIJJmsqu_VmZl1d-7P8KeKjxiSL0F66V49mTD2_TARR6IABTloTEu2OZlogA
+2020-07-22 08:59:55 [http-nio-8080-exec-6] INFO  com.ReditClone.security.JwtProvider -
+				 .... validate Token method......
+2020-07-22 08:59:55 [http-nio-8080-exec-6] INFO  com.ReditClone.security.JwtProvider -
+				 public key......Sun RSA public key, 2048 bits
+  modulus: 16749213887024145033595808490076817956139435457455627993079055968775541282720657689516202732958695829761806250013152116471972719291078004228346011953187151044827416821511634199628208260717633278055002401977829128122429228057722295260444969012161591907798540082474835689779725186996751099820808990551372087634709645026903850735029097618722989478410169889651035545993785048078114762538477235482448795852082467315977753305572322502028680010669945927928711085386199350401778752483828093204325567431475044133165315090141017884320105430653387677348688275024514135602324275635846317930605834355054199369335870969224823978399
+  public exponent: 65537
+2020-07-22 08:59:55 [http-nio-8080-exec-6] INFO  com.ReditClone.security.JwtProvider -
+				 .... validate Token method......Sun RSA public key, 2048 bits
+  modulus: 16749213887024145033595808490076817956139435457455627993079055968775541282720657689516202732958695829761806250013152116471972719291078004228346011953187151044827416821511634199628208260717633278055002401977829128122429228057722295260444969012161591907798540082474835689779725186996751099820808990551372087634709645026903850735029097618722989478410169889651035545993785048078114762538477235482448795852082467315977753305572322502028680010669945927928711085386199350401778752483828093204325567431475044133165315090141017884320105430653387677348688275024514135602324275635846317930605834355054199369335870969224823978399
+  public exponent: 65537
+2020-07-22 08:59:55 [http-nio-8080-exec-6] INFO  com.ReditClone.security.JwtProvider -
+				 public key......Sun RSA public key, 2048 bits
+  modulus: 16749213887024145033595808490076817956139435457455627993079055968775541282720657689516202732958695829761806250013152116471972719291078004228346011953187151044827416821511634199628208260717633278055002401977829128122429228057722295260444969012161591907798540082474835689779725186996751099820808990551372087634709645026903850735029097618722989478410169889651035545993785048078114762538477235482448795852082467315977753305572322502028680010669945927928711085386199350401778752483828093204325567431475044133165315090141017884320105430653387677348688275024514135602324275635846317930605834355054199369335870969224823978399
+  public exponent: 65537
+2020-07-22 08:59:55 [http-nio-8080-exec-6] INFO  com.ReditClone.security.JwtProvider -
+				validate Token Return Value ....header={alg=RS256},body={sub=nani, exp=1595389493},signature=I7quDQ9I-ySGmwLjv95unB-60sZocGsoFiIaK7VVOkGoDaFFM86PantDeyGQ_zOJpZlc7-OjKT02J8qTyoxg6Nootiq9_vRPu3B_w9ClPbHGhfqsrdCr0_WYiVtlw0sSyrCSZxZSms7DykVSbucP5RwgiI6wKlg4_ckNb9v_wr2OgldJJabyqK2jD5at5N1dCDt-HEiDWXGKaWtZQC-p45RBdZj1vWqwb5qbTowW76AIBnQEeNA3X2YE4r8LZGr78LXm2mMYUiHXkteR4MvUoeI1eSTIJJmsqu_VmZl1d-7P8KeKjxiSL0F66V49mTD2_TARR6IABTloTEu2OZlogA
+2020-07-22 08:59:55 [http-nio-8080-exec-6] INFO  com.ReditClone.security.JwtProvider -
+				 public key......Sun RSA public key, 2048 bits
+  modulus: 16749213887024145033595808490076817956139435457455627993079055968775541282720657689516202732958695829761806250013152116471972719291078004228346011953187151044827416821511634199628208260717633278055002401977829128122429228057722295260444969012161591907798540082474835689779725186996751099820808990551372087634709645026903850735029097618722989478410169889651035545993785048078114762538477235482448795852082467315977753305572322502028680010669945927928711085386199350401778752483828093204325567431475044133165315090141017884320105430653387677348688275024514135602324275635846317930605834355054199369335870969224823978399
+  public exponent: 65537
+2020-07-22 08:59:55 [http-nio-8080-exec-6] INFO  c.R.security.JwtAuthenticationFilter -
+				 ....validated token  method......
+2020-07-22 08:59:55 [http-nio-8080-exec-6] INFO  com.ReditClone.security.JwtProvider -
+				 public key......Sun RSA public key, 2048 bits
+  modulus: 16749213887024145033595808490076817956139435457455627993079055968775541282720657689516202732958695829761806250013152116471972719291078004228346011953187151044827416821511634199628208260717633278055002401977829128122429228057722295260444969012161591907798540082474835689779725186996751099820808990551372087634709645026903850735029097618722989478410169889651035545993785048078114762538477235482448795852082467315977753305572322502028680010669945927928711085386199350401778752483828093204325567431475044133165315090141017884320105430653387677348688275024514135602324275635846317930605834355054199369335870969224823978399
+  public exponent: 65537
+2020-07-22 08:59:55 [http-nio-8080-exec-6] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				<================in BeforeAdvice Calling method================>SubredditController.getAllSubreddits()
+2020-07-22 08:59:55 [http-nio-8080-exec-6] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				<=========in After ReturningAdvice calling method=======>SubredditController.getAllSubreddits()
+2020-07-22 08:59:55 [http-nio-8080-exec-6] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				====>argument:<====<200 OK OK,[SubredditDto [subredditId=1, name=First Subreddit, description=this is my first subreddit, createdDate=7 days ago, user=rukesh], SubredditDto [subredditId=2, name=Second Subreddit, description=this is my second subreddit, createdDate=8 days ago, user=rukesh], SubredditDto [subredditId=3, name=Third Subreddit, description=this is my third subreddit, createdDate=9 days ago, user=rukesh], SubredditDto [subredditId=4, name=Fourth subreddit, description=this is my fourth subreddit, createdDate=5 days ago, user=rukesh], SubredditDto [subredditId=5, name=Rukesh subreddit, description=this is rukesh subreddit, createdDate=4 days ago, user=rukesh], SubredditDto [subredditId=7, name=nani subreddit, description=this is nani subreddit, createdDate=4 days ago, user=rukesh], SubredditDto [subredditId=8, name=Bhanu subreddit, description=Bhanu is nani subreddit, createdDate=4 days ago, user=rukesh], SubredditDto [subredditId=11, name=Prabas Subreddit, description=this is prabas subreddit created for Radha Syam Movie..., createdDate=2 days ago, user=rukesh], SubredditDto [subredditId=14, name=uv Creations subreddit, description=this is uv creations  subreddit..., createdDate=2 days ago, user=rukesh], SubredditDto [subredditId=15, name=RRR movie Subreddit, description=this is RRR movie subreddit, createdDate=2 days ago, user=rukesh], SubredditDto [subredditId=17, name=RADHE SYAM Subreddit, description=this is radhe syam subreddit..., createdDate=2 days ago, user=rukesh], SubredditDto [subredditId=19, name=Aswadhama Subreddit, description=This is NagaSowrya Aswadhama Subreddit, createdDate=2 days ago, user=rukesh], SubredditDto [subredditId=20, name=Tarak Subreddit, description=this is tarak subreddit, createdDate=2 days ago, user=rukesh], SubredditDto [subredditId=22, name=UNO Subreddit, description=this is uno subreddit, createdDate=yesterday, user=rukesh], SubredditDto [subredditId=23, name=W.H.O Subreddit, description=this is W.H.O subreddit, createdDate=yesterday, user=rukesh]],[]>
+2020-07-22 09:00:10 [http-nio-8080-exec-7] INFO  c.R.security.JwtAuthenticationFilter -
+				 ....into dofiler method......
+2020-07-22 09:00:10 [http-nio-8080-exec-7] INFO  c.R.security.JwtAuthenticationFilter -
+				bearerToken......null
+2020-07-22 09:00:10 [http-nio-8080-exec-7] INFO  c.R.security.JwtAuthenticationFilter -
+				 jwt..... null
+2020-07-22 09:00:10 [http-nio-8080-exec-7] INFO  c.R.security.JwtAuthenticationFilter -
+				 ....into dofiler method......
+2020-07-22 09:00:10 [http-nio-8080-exec-7] INFO  c.R.security.JwtAuthenticationFilter -
+				bearerToken......Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJuYW5pIiwiZXhwIjoxNTk1Mzg5NDkzfQ.I7quDQ9I-ySGmwLjv95unB-60sZocGsoFiIaK7VVOkGoDaFFM86PantDeyGQ_zOJpZlc7-OjKT02J8qTyoxg6Nootiq9_vRPu3B_w9ClPbHGhfqsrdCr0_WYiVtlw0sSyrCSZxZSms7DykVSbucP5RwgiI6wKlg4_ckNb9v_wr2OgldJJabyqK2jD5at5N1dCDt-HEiDWXGKaWtZQC-p45RBdZj1vWqwb5qbTowW76AIBnQEeNA3X2YE4r8LZGr78LXm2mMYUiHXkteR4MvUoeI1eSTIJJmsqu_VmZl1d-7P8KeKjxiSL0F66V49mTD2_TARR6IABTloTEu2OZlogA
+2020-07-22 09:00:10 [http-nio-8080-exec-7] INFO  c.R.security.JwtAuthenticationFilter -
+				bearerToken......eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJuYW5pIiwiZXhwIjoxNTk1Mzg5NDkzfQ.I7quDQ9I-ySGmwLjv95unB-60sZocGsoFiIaK7VVOkGoDaFFM86PantDeyGQ_zOJpZlc7-OjKT02J8qTyoxg6Nootiq9_vRPu3B_w9ClPbHGhfqsrdCr0_WYiVtlw0sSyrCSZxZSms7DykVSbucP5RwgiI6wKlg4_ckNb9v_wr2OgldJJabyqK2jD5at5N1dCDt-HEiDWXGKaWtZQC-p45RBdZj1vWqwb5qbTowW76AIBnQEeNA3X2YE4r8LZGr78LXm2mMYUiHXkteR4MvUoeI1eSTIJJmsqu_VmZl1d-7P8KeKjxiSL0F66V49mTD2_TARR6IABTloTEu2OZlogA
+2020-07-22 09:00:10 [http-nio-8080-exec-7] INFO  c.R.security.JwtAuthenticationFilter -
+				 jwt..... eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJuYW5pIiwiZXhwIjoxNTk1Mzg5NDkzfQ.I7quDQ9I-ySGmwLjv95unB-60sZocGsoFiIaK7VVOkGoDaFFM86PantDeyGQ_zOJpZlc7-OjKT02J8qTyoxg6Nootiq9_vRPu3B_w9ClPbHGhfqsrdCr0_WYiVtlw0sSyrCSZxZSms7DykVSbucP5RwgiI6wKlg4_ckNb9v_wr2OgldJJabyqK2jD5at5N1dCDt-HEiDWXGKaWtZQC-p45RBdZj1vWqwb5qbTowW76AIBnQEeNA3X2YE4r8LZGr78LXm2mMYUiHXkteR4MvUoeI1eSTIJJmsqu_VmZl1d-7P8KeKjxiSL0F66V49mTD2_TARR6IABTloTEu2OZlogA
+2020-07-22 09:00:10 [http-nio-8080-exec-7] INFO  com.ReditClone.security.JwtProvider -
+				 .... validate Token method......
+2020-07-22 09:00:10 [http-nio-8080-exec-7] INFO  com.ReditClone.security.JwtProvider -
+				 public key......Sun RSA public key, 2048 bits
+  modulus: 16749213887024145033595808490076817956139435457455627993079055968775541282720657689516202732958695829761806250013152116471972719291078004228346011953187151044827416821511634199628208260717633278055002401977829128122429228057722295260444969012161591907798540082474835689779725186996751099820808990551372087634709645026903850735029097618722989478410169889651035545993785048078114762538477235482448795852082467315977753305572322502028680010669945927928711085386199350401778752483828093204325567431475044133165315090141017884320105430653387677348688275024514135602324275635846317930605834355054199369335870969224823978399
+  public exponent: 65537
+2020-07-22 09:00:10 [http-nio-8080-exec-7] INFO  com.ReditClone.security.JwtProvider -
+				 .... validate Token method......Sun RSA public key, 2048 bits
+  modulus: 16749213887024145033595808490076817956139435457455627993079055968775541282720657689516202732958695829761806250013152116471972719291078004228346011953187151044827416821511634199628208260717633278055002401977829128122429228057722295260444969012161591907798540082474835689779725186996751099820808990551372087634709645026903850735029097618722989478410169889651035545993785048078114762538477235482448795852082467315977753305572322502028680010669945927928711085386199350401778752483828093204325567431475044133165315090141017884320105430653387677348688275024514135602324275635846317930605834355054199369335870969224823978399
+  public exponent: 65537
+2020-07-22 09:00:10 [http-nio-8080-exec-7] INFO  com.ReditClone.security.JwtProvider -
+				 public key......Sun RSA public key, 2048 bits
+  modulus: 16749213887024145033595808490076817956139435457455627993079055968775541282720657689516202732958695829761806250013152116471972719291078004228346011953187151044827416821511634199628208260717633278055002401977829128122429228057722295260444969012161591907798540082474835689779725186996751099820808990551372087634709645026903850735029097618722989478410169889651035545993785048078114762538477235482448795852082467315977753305572322502028680010669945927928711085386199350401778752483828093204325567431475044133165315090141017884320105430653387677348688275024514135602324275635846317930605834355054199369335870969224823978399
+  public exponent: 65537
+2020-07-22 09:00:10 [http-nio-8080-exec-7] INFO  com.ReditClone.security.JwtProvider -
+				validate Token Return Value ....header={alg=RS256},body={sub=nani, exp=1595389493},signature=I7quDQ9I-ySGmwLjv95unB-60sZocGsoFiIaK7VVOkGoDaFFM86PantDeyGQ_zOJpZlc7-OjKT02J8qTyoxg6Nootiq9_vRPu3B_w9ClPbHGhfqsrdCr0_WYiVtlw0sSyrCSZxZSms7DykVSbucP5RwgiI6wKlg4_ckNb9v_wr2OgldJJabyqK2jD5at5N1dCDt-HEiDWXGKaWtZQC-p45RBdZj1vWqwb5qbTowW76AIBnQEeNA3X2YE4r8LZGr78LXm2mMYUiHXkteR4MvUoeI1eSTIJJmsqu_VmZl1d-7P8KeKjxiSL0F66V49mTD2_TARR6IABTloTEu2OZlogA
+2020-07-22 09:00:10 [http-nio-8080-exec-7] INFO  com.ReditClone.security.JwtProvider -
+				 public key......Sun RSA public key, 2048 bits
+  modulus: 16749213887024145033595808490076817956139435457455627993079055968775541282720657689516202732958695829761806250013152116471972719291078004228346011953187151044827416821511634199628208260717633278055002401977829128122429228057722295260444969012161591907798540082474835689779725186996751099820808990551372087634709645026903850735029097618722989478410169889651035545993785048078114762538477235482448795852082467315977753305572322502028680010669945927928711085386199350401778752483828093204325567431475044133165315090141017884320105430653387677348688275024514135602324275635846317930605834355054199369335870969224823978399
+  public exponent: 65537
+2020-07-22 09:00:10 [http-nio-8080-exec-7] INFO  c.R.security.JwtAuthenticationFilter -
+				 ....validated token  method......
+2020-07-22 09:00:10 [http-nio-8080-exec-7] INFO  com.ReditClone.security.JwtProvider -
+				 public key......Sun RSA public key, 2048 bits
+  modulus: 16749213887024145033595808490076817956139435457455627993079055968775541282720657689516202732958695829761806250013152116471972719291078004228346011953187151044827416821511634199628208260717633278055002401977829128122429228057722295260444969012161591907798540082474835689779725186996751099820808990551372087634709645026903850735029097618722989478410169889651035545993785048078114762538477235482448795852082467315977753305572322502028680010669945927928711085386199350401778752483828093204325567431475044133165315090141017884320105430653387677348688275024514135602324275635846317930605834355054199369335870969224823978399
+  public exponent: 65537
+2020-07-22 09:00:10 [http-nio-8080-exec-7] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				<================in BeforeAdvice Calling method================>AuthController.logout(..)
+2020-07-22 09:00:10 [http-nio-8080-exec-7] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				====>argument:RefreshTokenRequest [refreshToken=e101d4c4-79f4-4a94-98f9-17ade509e3f2, username=nani]
+2020-07-22 09:00:10 [http-nio-8080-exec-7] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				<================in BeforeAdvice Calling method================>RefreshTokenService.deleteRefreshToken(..)
+2020-07-22 09:00:10 [http-nio-8080-exec-7] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				====>argument:e101d4c4-79f4-4a94-98f9-17ade509e3f2
+2020-07-22 09:00:10 [http-nio-8080-exec-7] INFO  c.R.services.RefreshTokenService -
+				... in deletetoken method called........
+2020-07-22 09:00:10 [http-nio-8080-exec-7] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				<================in BeforeAdvice Calling method================>RefreshTokenRepository.findByToken(..)
+2020-07-22 09:00:10 [http-nio-8080-exec-7] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				====>argument:e101d4c4-79f4-4a94-98f9-17ade509e3f2
+2020-07-22 09:00:10 [http-nio-8080-exec-7] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				<=========in After ReturningAdvice calling method=======>RefreshTokenRepository.findByToken(..)
+2020-07-22 09:00:10 [http-nio-8080-exec-7] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				====>argument:<====Optional[RefreshToken [id=66, token=e101d4c4-79f4-4a94-98f9-17ade509e3f2, createdDate=2020-07-22T03:29:53.699Z]]
+2020-07-22 09:00:10 [http-nio-8080-exec-7] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				<================in BeforeAdvice Calling method================>RefreshTokenRepository.deleteByToken(..)
+2020-07-22 09:00:10 [http-nio-8080-exec-7] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				====>argument:e101d4c4-79f4-4a94-98f9-17ade509e3f2
+2020-07-22 09:00:10 [http-nio-8080-exec-7] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				<=========in After ReturningAdvice calling method=======>RefreshTokenRepository.deleteByToken(..)
+2020-07-22 09:00:10 [http-nio-8080-exec-7] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				====>argument:<====null
+2020-07-22 09:00:10 [http-nio-8080-exec-7] INFO  c.R.services.RefreshTokenService -
+				... deletetoken method called........
+2020-07-22 09:00:10 [http-nio-8080-exec-7] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				<=========in After ReturningAdvice calling method=======>RefreshTokenService.deleteRefreshToken(..)
+2020-07-22 09:00:10 [http-nio-8080-exec-7] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				====>argument:<====null
+2020-07-22 09:00:10 [http-nio-8080-exec-7] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				<=========in After ReturningAdvice calling method=======>AuthController.logout(..)
+2020-07-22 09:00:10 [http-nio-8080-exec-7] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				====>argument:<====<200 OK OK,Refresh Token Deleted Successfully!!....,[]>
+2020-07-22 09:00:11 [http-nio-8080-exec-5] INFO  c.R.security.JwtAuthenticationFilter -
+				 ....into dofiler method......
+2020-07-22 09:00:11 [http-nio-8080-exec-5] INFO  c.R.security.JwtAuthenticationFilter -
+				bearerToken......null
+2020-07-22 09:00:11 [http-nio-8080-exec-5] INFO  c.R.security.JwtAuthenticationFilter -
+				 jwt..... null
+2020-07-22 09:00:11 [http-nio-8080-exec-5] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				<================in BeforeAdvice Calling method================>PostController.getAllPosts()
+2020-07-22 09:00:11 [http-nio-8080-exec-5] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				<=========in After ReturningAdvice calling method=======>PostController.getAllPosts()
+2020-07-22 09:00:11 [http-nio-8080-exec-5] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				====>argument:<====<200 OK OK,[PostResponse [postId=1, postName=First Post, url=www.google.com, description=this is my first post, userName=rukesh, subredditName=First Subreddit, voteCount=-1, commentCount=7, duration=5 months ago, upVote=false, downVote=false], PostResponse [postId=2, postName=Second post, url=www.fb.com, description=this is my second post, userName=rukesh, subredditName=First Subreddit, voteCount=2, commentCount=1, duration=2 months ago, upVote=false, downVote=false], PostResponse [postId=3, postName=Third Post, url=www.goib.com, description=this is my third  post, userName=rukesh, subredditName=First Subreddit, voteCount=1, commentCount=0, duration=5 days ago, upVote=false, downVote=false], PostResponse [postId=4, postName=post from postman, url=www.postman.com, description=this is postman client post, userName=rukesh, subredditName=nani subreddit, voteCount=2, commentCount=0, duration=4 days ago, upVote=false, downVote=false], PostResponse [postId=5, postName=nani post from postman, url=www.fb.com, description=this is nani post, userName=rukesh, subredditName=nani subreddit, voteCount=1, commentCount=0, duration=4 days ago, upVote=false, downVote=false], PostResponse [postId=6, postName=roopa post from postman, url=www.fb.com, description=this is roopa post, userName=rukesh, subredditName=nani subreddit, voteCount=1, commentCount=0, duration=4 days ago, upVote=false, downVote=false], PostResponse [postId=7, postName=icc, url=www.icc.com, description=<p><strong>india vs australia series 2020&nbsp;</strong></p>
+<h4><strong>is conducted in <span style="background-color: #2dc26b;">november&nbsp; &nbsp;</span></strong></h4>
+<p>pleasse register on or before ...oct 12</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;yours faithfully,</p>
+<p>&nbsp; &nbsp; &nbsp; <strong>ICC</strong></p>, userName=rukesh, subredditName=Rukesh subreddit, voteCount=2, commentCount=0, duration=3 days ago, upVote=false, downVote=false], PostResponse [postId=8, postName=uv Creations , url=www.uv creations , description=, userName=rukesh, subredditName=Prabas Subreddit, voteCount=2, commentCount=0, duration=2 days ago, upVote=false, downVote=false], PostResponse [postId=9, postName=Tarak@9999, url=www.tarak9999.com, description=, userName=rukesh, subredditName=Tarak Subreddit, voteCount=1, commentCount=0, duration=2 days ago, upVote=false, downVote=false], PostResponse [postId=10, postName=corona virus, url=www.who.org, description=<p>follow the guildlines providded by the W.H.O to avoid from corona virus...</p>, userName=rukesh, subredditName=Third Subreddit, voteCount=1, commentCount=0, duration=yesterday, upVote=false, downVote=false], PostResponse [postId=11, postName=WHO, url=www.who.org, description=<p>please takes care of yours ....</p>, userName=rukesh, subredditName=Prabas Subreddit, voteCount=-2, commentCount=0, duration=yesterday, upVote=false, downVote=false], PostResponse [postId=12, postName=UNO, url=www.uno.org, description=<p>please maintain peace all over the world....</p>, userName=rukesh, subredditName=UNO Subreddit, voteCount=1, commentCount=0, duration=yesterday, upVote=false, downVote=false], PostResponse [postId=13, postName=viral fevers, url=www.who.org, description=<p>please take care of every one...</p>, userName=rukesh, subredditName=W.H.O Subreddit, voteCount=1, commentCount=0, duration=yesterday, upVote=false, downVote=false], PostResponse [postId=20, postName=second post, url=www.sec.com, description=<p>this is second post</p>, userName=nani, subredditName=Second Subreddit, voteCount=0, commentCount=0, duration=5 hours ago, upVote=false, downVote=false]],[]>
+2020-07-22 09:00:11 [http-nio-8080-exec-9] INFO  c.R.security.JwtAuthenticationFilter -
+				 ....into dofiler method......
+2020-07-22 09:00:11 [http-nio-8080-exec-9] INFO  c.R.security.JwtAuthenticationFilter -
+				bearerToken......null
+2020-07-22 09:00:11 [http-nio-8080-exec-9] INFO  c.R.security.JwtAuthenticationFilter -
+				 jwt..... null
+2020-07-22 09:00:11 [http-nio-8080-exec-9] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				<================in BeforeAdvice Calling method================>SubredditController.getAllSubreddits()
+2020-07-22 09:00:11 [http-nio-8080-exec-9] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				<=========in After ReturningAdvice calling method=======>SubredditController.getAllSubreddits()
+2020-07-22 09:00:11 [http-nio-8080-exec-9] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				====>argument:<====<200 OK OK,[SubredditDto [subredditId=1, name=First Subreddit, description=this is my first subreddit, createdDate=7 days ago, user=rukesh], SubredditDto [subredditId=2, name=Second Subreddit, description=this is my second subreddit, createdDate=8 days ago, user=rukesh], SubredditDto [subredditId=3, name=Third Subreddit, description=this is my third subreddit, createdDate=9 days ago, user=rukesh], SubredditDto [subredditId=4, name=Fourth subreddit, description=this is my fourth subreddit, createdDate=5 days ago, user=rukesh], SubredditDto [subredditId=5, name=Rukesh subreddit, description=this is rukesh subreddit, createdDate=4 days ago, user=rukesh], SubredditDto [subredditId=7, name=nani subreddit, description=this is nani subreddit, createdDate=4 days ago, user=rukesh], SubredditDto [subredditId=8, name=Bhanu subreddit, description=Bhanu is nani subreddit, createdDate=4 days ago, user=rukesh], SubredditDto [subredditId=11, name=Prabas Subreddit, description=this is prabas subreddit created for Radha Syam Movie..., createdDate=2 days ago, user=rukesh], SubredditDto [subredditId=14, name=uv Creations subreddit, description=this is uv creations  subreddit..., createdDate=2 days ago, user=rukesh], SubredditDto [subredditId=15, name=RRR movie Subreddit, description=this is RRR movie subreddit, createdDate=2 days ago, user=rukesh], SubredditDto [subredditId=17, name=RADHE SYAM Subreddit, description=this is radhe syam subreddit..., createdDate=2 days ago, user=rukesh], SubredditDto [subredditId=19, name=Aswadhama Subreddit, description=This is NagaSowrya Aswadhama Subreddit, createdDate=2 days ago, user=rukesh], SubredditDto [subredditId=20, name=Tarak Subreddit, description=this is tarak subreddit, createdDate=2 days ago, user=rukesh], SubredditDto [subredditId=22, name=UNO Subreddit, description=this is uno subreddit, createdDate=yesterday, user=rukesh], SubredditDto [subredditId=23, name=W.H.O Subreddit, description=this is W.H.O subreddit, createdDate=yesterday, user=rukesh]],[]>
+2020-07-22 09:00:27 [http-nio-8080-exec-10] INFO  c.R.security.JwtAuthenticationFilter -
+				 ....into dofiler method......
+2020-07-22 09:00:27 [http-nio-8080-exec-10] INFO  c.R.security.JwtAuthenticationFilter -
+				bearerToken......null
+2020-07-22 09:00:27 [http-nio-8080-exec-10] INFO  c.R.security.JwtAuthenticationFilter -
+				 jwt..... null
+2020-07-22 09:00:27 [http-nio-8080-exec-3] INFO  c.R.security.JwtAuthenticationFilter -
+				 ....into dofiler method......
+2020-07-22 09:00:27 [http-nio-8080-exec-3] INFO  c.R.security.JwtAuthenticationFilter -
+				bearerToken......null
+2020-07-22 09:00:27 [http-nio-8080-exec-3] INFO  c.R.security.JwtAuthenticationFilter -
+				 jwt..... null
+2020-07-22 09:00:27 [http-nio-8080-exec-3] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				<================in BeforeAdvice Calling method================>VoteController.vote(..)
+2020-07-22 09:00:27 [http-nio-8080-exec-3] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				====>argument:VoteDto [postId=1]
+2020-07-22 09:00:27 [http-nio-8080-exec-3] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				<================in BeforeAdvice Calling method================>VoteService.vote(..)
+2020-07-22 09:00:27 [http-nio-8080-exec-3] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				====>argument:VoteDto [postId=1]
+2020-07-22 09:00:27 [http-nio-8080-exec-3] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				<================in BeforeAdvice Calling method================>CrudRepository.findById(..)
+2020-07-22 09:00:27 [http-nio-8080-exec-3] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				====>argument:1
+2020-07-22 09:00:27 [http-nio-8080-exec-3] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				<=========in After ReturningAdvice calling method=======>CrudRepository.findById(..)
+2020-07-22 09:00:27 [http-nio-8080-exec-3] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				====>argument:<====Optional[Post [postId=1, postname=First Post, url=www.google.com, description=this is my first post, voteCount=-1, user=User [userId=1, username=rukesh, password=$2a$10$SF5S4MU9ED3qcXQ1HRF6feY69KCWd0pmCMqTq8c6Y7WZO90nYAkea, email=tech.rukesh9999@gmail.com, createdDate=2020-07-15T12:07:50.265Z, enabled=true], createdDate=2020-02-01T18:30:00Z, subreddit=Subreddit [subredditId=1, name=First Subreddit, description=this is my first subreddit, posts=[], createdDate=2020-07-13T18:30:00Z, user=User [userId=1, username=rukesh, password=$2a$10$SF5S4MU9ED3qcXQ1HRF6feY69KCWd0pmCMqTq8c6Y7WZO90nYAkea, email=tech.rukesh9999@gmail.com, createdDate=2020-07-15T12:07:50.265Z, enabled=true]]]]
+2020-07-22 09:00:27 [http-nio-8080-exec-3] INFO  com.ReditClone.services.VoteService -
+				find post by id...Post [postId=1, postname=First Post, url=www.google.com, description=this is my first post, voteCount=-1, user=User [userId=1, username=rukesh, password=$2a$10$SF5S4MU9ED3qcXQ1HRF6feY69KCWd0pmCMqTq8c6Y7WZO90nYAkea, email=tech.rukesh9999@gmail.com, createdDate=2020-07-15T12:07:50.265Z, enabled=true], createdDate=2020-02-01T18:30:00Z, subreddit=Subreddit [subredditId=1, name=First Subreddit, description=this is my first subreddit, posts=[], createdDate=2020-07-13T18:30:00Z, user=User [userId=1, username=rukesh, password=$2a$10$SF5S4MU9ED3qcXQ1HRF6feY69KCWd0pmCMqTq8c6Y7WZO90nYAkea, email=tech.rukesh9999@gmail.com, createdDate=2020-07-15T12:07:50.265Z, enabled=true]]]
+2020-07-22 09:00:27 [http-nio-8080-exec-3] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				<================in BeforeAdvice Calling method================>Authservice.getCurrentUser()
+2020-07-22 09:00:27 [http-nio-8080-exec-3] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				<=========in After ReturningAdvice calling method=======>Authservice.getCurrentUser()
+2020-07-22 09:00:27 [http-nio-8080-exec-3] WARN  c.R.aspect.RedditCloneLoggingAspect -
+				======exception reported by getCurrentUser with message : java.lang.String cannot be cast to org.springframework.security.core.userdetails.User
+2020-07-22 09:00:27 [http-nio-8080-exec-3] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				<=========in After ReturningAdvice calling method=======>VoteService.vote(..)
+2020-07-22 09:00:27 [http-nio-8080-exec-3] WARN  c.R.aspect.RedditCloneLoggingAspect -
+				======exception reported by vote with message : java.lang.String cannot be cast to org.springframework.security.core.userdetails.User
+2020-07-22 09:00:27 [http-nio-8080-exec-3] INFO  c.R.aspect.RedditCloneLoggingAspect -
+				<=========in After ReturningAdvice calling method=======>VoteController.vote(..)
+2020-07-22 09:00:27 [http-nio-8080-exec-3] WARN  c.R.aspect.RedditCloneLoggingAspect -
+				======exception reported by vote with message : java.lang.String cannot be cast to org.springframework.security.core.userdetails.User
+2020-07-22 09:01:42 [restartedMain] INFO  com.ReditClone.ReditCloneApplication -
+				Starting ReditCloneApplication on DESKTOP-0PVGNSQ with PID 17232 (E:\stsworkspace\ReditClone\target\classes started by DELL in E:\stsworkspace\ReditClone)
+2020-07-22 09:01:42 [restartedMain] DEBUG com.ReditClone.ReditCloneApplication -
+				Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-22 09:01:42 [restartedMain] INFO  com.ReditClone.ReditCloneApplication -
+				No active profile set, falling back to default profiles: default
+2020-07-22 09:01:44 [restartedMain] INFO  com.ReditClone.security.JwtProvider -
+				keyStore....java.security.KeyStore@4e267af2
+2020-07-22 09:01:44 [restartedMain] INFO  com.ReditClone.security.JwtProvider -
+				resourceAsStream....java.io.BufferedInputStream@492bc039
+2020-07-22 09:01:48 [restartedMain] DEBUG c.R.security.JwtAuthenticationFilter -
+				Filter 'jwtAuthenticationFilter' configured for use
+2020-07-22 09:01:49 [restartedMain] INFO  com.ReditClone.ReditCloneApplication -
+				Started ReditCloneApplication in 6.743 seconds (JVM running for 38291.464)
+2020-07-22 09:02:17 [restartedMain] INFO  com.ReditClone.ReditCloneApplication -
+				Starting ReditCloneApplication on DESKTOP-0PVGNSQ with PID 17232 (E:\stsworkspace\ReditClone\target\classes started by DELL in E:\stsworkspace\ReditClone)
+2020-07-22 09:02:17 [restartedMain] DEBUG com.ReditClone.ReditCloneApplication -
+				Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-22 09:02:17 [restartedMain] INFO  com.ReditClone.ReditCloneApplication -
+				No active profile set, falling back to default profiles: default
+2020-07-22 09:02:18 [restartedMain] INFO  com.ReditClone.security.JwtProvider -
+				keyStore....java.security.KeyStore@49d4c86b
+2020-07-22 09:02:18 [restartedMain] INFO  com.ReditClone.security.JwtProvider -
+				resourceAsStream....java.io.BufferedInputStream@44f73863
+2020-07-22 09:02:21 [restartedMain] DEBUG c.R.security.JwtAuthenticationFilter -
+				Flter 'jwtAuthenticationFilter' configured for use
+2020-07-22 09:02:i22 [restartedMain] INFO  com.ReditClone.ReditCloneApplication -
+				Started ReditCloneApplication in 5.399 seconds (JVM running for 38324.564)
+2020-07-22 21:26:41 [restartedMain] INFO  com.ReditClone.ReditCloneApplication -
+				Starting ReditCloneApplication on DESKTOP-0PVGNSQ with PID 17232 (E:\stsworkspace\ReditClone\target\classes started by DELL in E:\stsworkspace\ReditClone)
+2020-07-22 21:26:41 [restartedMain] DEBUG com.ReditClone.ReditCloneApplication -
+				Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-22 21:26:41 [restartedMain] INFO  com.ReditClone.ReditCloneApplication -
+				No active profile set, falling back to default profiles: default
+2020-07-22 21:26:44 [restartedMain] INFO  com.ReditClone.security.JwtProvider -
+				keyStore....java.security.KeyStore@6568832e
+2020-07-22 21:26:44 [restartedMain] INFO  com.ReditClone.security.JwtProvider -
+				resourceAsStream....java.io.BufferedInputStream@491dbe6b
