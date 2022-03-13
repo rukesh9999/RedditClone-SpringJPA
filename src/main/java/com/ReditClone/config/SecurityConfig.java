@@ -28,6 +28,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	@Autowired
 	public SecurityConfig(UserDetailsService userDetailsService,
 			        JwtAuthenticationFilter jwtAuthenticationFilter) {
+	
 		
 		this.userDetailsService = userDetailsService;
 		JwtAuthenticationFilter = jwtAuthenticationFilter;
@@ -87,3 +88,5 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	}
 
 }
+
+

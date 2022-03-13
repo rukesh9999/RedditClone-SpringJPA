@@ -1,0 +1,14 @@
+2021-06-27 14:34:36 [restartedMain] INFO  com.ReditClone.ReditCloneApplication -
+				Starting ReditCloneApplication on Rukesh with PID 11808 (E:\MyWorkspace\ReditClone\target\classes started by DELL in E:\MyWorkspace\ReditClone)
+2021-06-27 14:34:36 [restartedMain] DEBUG com.ReditClone.ReditCloneApplication -
+				Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2021-06-27 14:34:36 [restartedMain] INFO  com.ReditClone.ReditCloneApplication -
+				No active profile set, falling back to default profiles: default
+2021-06-27 14:34:41 [restartedMain] INFO  com.ReditClone.security.JwtProvider -
+				keyStore....java.security.KeyStore@6c76616a
+2021-06-27 14:34:41 [restartedMain] INFO  com.ReditClone.security.JwtProvider -
+				resourceAsStream....java.io.BufferedInputStream@41e5883b
+2021-06-27 14:34:55 [restartedMain] DEBUG c.R.security.JwtAuthenticationFilter -
+				Filter 'jwtAuthenticationFilter' configured for use
+2021-06-27 14:34:58 [restartedMain] INFO  com.ReditClone.ReditCloneApplication -
+				Started ReditCloneApplication in 22.946 seconds (JVM running for 31.226)
